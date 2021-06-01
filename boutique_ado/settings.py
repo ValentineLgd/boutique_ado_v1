@@ -172,7 +172,7 @@ STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
-if 'USE_ANS' in os.environ:
+if 'USE_AWS' in os.environ:
     #Bucket config
     AWS_STORAGE_BUCKET_NAME='vl-boutique-ado'
     AWS_S3_REGION_NAME='eu-west-1'
